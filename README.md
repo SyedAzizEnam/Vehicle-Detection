@@ -19,7 +19,7 @@ to reject outliers and follow detected vehicles.
 # Feature Extraction
 
 The first and arguably most important part of a machine
-learning pipeline is the extraction of good features that proved a rich
+learning pipeline is the extraction of good features that provide a rich
 representation of our objects of interest. We want our classifier to be able to
 detect cars so we shall use the following features:
 
