@@ -237,14 +237,11 @@ alt="Car Image" />
 
 # Video Implementation
 
-We run this pipeline on each image in our video stream
-to get this final result.
+We run this pipeline on each image in our video stream to get this final result. One extra thing I did for our video stream is that I used the heat maps of previous images to get stable boxes around the vehicles. I kept a buffer of 10 heat maps which I summed and thresholded.
 
 [![IMAGE ALT TEXT
 HERE](https://img.youtube.com/vi/DKyayI2gE2M/0.jpg)](https://www.youtube.com/watch?v=DKyayI2gE2M)
-One extra thing I did for our video stream is that I used the heat maps of
-previous images to get stable boxes around the vehicles. I kept a buffer of 10
-heat maps which I summed and thresholded.
+
 
 # Discussion
 
