@@ -130,9 +130,9 @@ alt="Car Image" />
 </figure>
 
 What we will find when we test on images is that we get some false positives. We
-can do a few things to alleviate this problem. One thins is using the
+can do a few things to alleviate this problem. One thing is using the
 "decision_function" from before and thresholding on the returned value. Another
-thing to notice is that a vehicles will be matched in multiple windows in the
+thing to notice is that vehicles will be matched in multiple windows in the
 image. We can define a heat map of these windows and use a threshold to get rid
 of isolated windows which usually correspond to false positives. Once we have a
 thresholded heat map we can use a function in scipy called "label" to find the
