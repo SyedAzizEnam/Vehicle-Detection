@@ -245,7 +245,7 @@ HERE](https://img.youtube.com/vi/DKyayI2gE2M/0.jpg)](https://www.youtube.com/wat
 
 # Discussion
 
-The algortihm successfully identifying vehicles when they are in range however
+The algortihm is successfully identifying vehicles when they are in range however
 there is much room for improvement. For future work one could: 
 * Create a
 vehicle class and keep track of which pixels are associated with which vehicles.
